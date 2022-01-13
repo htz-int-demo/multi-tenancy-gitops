@@ -4,10 +4,11 @@ resources:
 #- argocd/ace/stage.yaml
 #- argocd/ace/prod.yaml
 
-- argocd/lauren-demo/cicd.yaml
-- argocd/lauren-demo/dev.yaml
-- argocd/lauren-demo/stage.yaml
-- argocd/lauren-demo/prod.yaml
+- argocd/lauren-demo/ci.yaml
+# - argocd/lauren-demo/cicd.yaml
+# - argocd/lauren-demo/dev.yaml
+# - argocd/lauren-demo/stage.yaml
+# - argocd/lauren-demo/prod.yaml
 
 
 #- argocd/apic/cicd.yaml
