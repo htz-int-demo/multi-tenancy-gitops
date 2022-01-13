@@ -26,8 +26,6 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: staging
     server: https://kubernetes.default.svc
-  - namespace: test
-    server: https://kubernetes.default.svc
   - namespace: prod
     server: https://kubernetes.default.svc
   - namespace: sealed-secrets
