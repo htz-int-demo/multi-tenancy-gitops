@@ -94,7 +94,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/client-engineering-gitops-h/multi-tenancy-gitops-services.git
+      value: https://github.com/client-engineering-gitops-htz/multi-tenancy-gitops-services.git
     - op: add
       path: /spec/source/targetRevision
       value: master
@@ -105,7 +105,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/client-engineering-gitops-h/multi-tenancy-gitops-apps.git
+      value: https://github.com/client-engineering-gitops-htz/multi-tenancy-gitops-apps.git
     - op: add
       path: /spec/source/targetRevision
       value: master
