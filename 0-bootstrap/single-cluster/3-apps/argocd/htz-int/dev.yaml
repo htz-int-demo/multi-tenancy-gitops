@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: apps-lauren-demo-stage
+  name: apps-htz-int-dev
   annotations:
     argocd.argoproj.io/sync-wave: "300"
   labels:
@@ -14,7 +14,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: lauren-demo/config/argocd/staging
+    path: htz-int/config/argocd/dev
   syncPolicy:
     automated:
       prune: true
