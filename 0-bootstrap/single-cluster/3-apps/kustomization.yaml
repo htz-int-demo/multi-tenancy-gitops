@@ -5,10 +5,10 @@ resources:
 # - argocd/ace/prod.yaml
 
 
-# - argocd/htz-int/cicd.yaml
-# - argocd/htz-int/dev.yaml
-# - argocd/htz-int/stage.yaml
-# - argocd/htz-int/prod.yaml
+- argocd/htz-int/cicd.yaml
+- argocd/htz-int/dev.yaml
+- argocd/htz-int/stage.yaml
+- argocd/htz-int/prod.yaml
 
 
 # - argocd/mq/cicd.yaml
