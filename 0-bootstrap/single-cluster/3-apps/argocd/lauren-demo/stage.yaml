@@ -14,7 +14,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: lauren-demo/config/argocd/staging
+    path: htz-int/config/argocd/staging
   syncPolicy:
     automated:
       prune: true
